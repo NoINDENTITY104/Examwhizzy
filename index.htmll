@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ExamWhizzy - Your Study Buddy</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>ExamWhizzy</h1>
+      <p>Prepare smart, score high!</p>
+    </div>
+  </header>
+  <main class="container">
+    <section class="cards">
+      <article class="card">
+        <h2>Download Notes</h2>
+        <p>Get detailed study notes to boost your prep.</p>
+        <a href="notes.pdf" class="btn" download>Download Now</a>
+      </article>
+      <article class="card">
+        <h2>Watch Video</h2>
+        <p>Learn with easy-to-understand video lessons.</p>
+        <a href="https://www.youtube.com" target="_blank" rel="noopener" class="btn">Watch Now</a>
+      </article>
+      <article class="card">
+        <h2>Practice Quiz</h2>
+        <p>Test your knowledge with quizzes.</p>
+        <button class="btn" id="startQuiz">Start Quiz</button>
+      </article>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 ExamWhizzy. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById('startQuiz').addEventListener('click', function() {
+      alert('Quiz feature coming soon!');
+    });
+  </script>
+</body>
+</html>
